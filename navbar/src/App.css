@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_div{
+  /* border: 1px solid red; */
+  width: 100%;
+  display:  flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color:black;
+  height: 50px;
+  align-items: center;
+}
+
+h1{
+  font-size: medium;
+  color: white;
+  cursor: pointer;
+}
+.links_div{
+   /* border:  1px solid green; */
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin: auto;
+  
+}
+a{
+  text-decoration: none;
+  align-items: center;
+  color: white;
+}
+
+button{
+  border-radius: 12px;
+  border: 1px solid teal;
+  width: 100px;
+  outline: none;
+  background-color: teal;
+  height: 25px;
+  color: white;
+  cursor: pointer;
+}

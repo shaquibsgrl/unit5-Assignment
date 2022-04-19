@@ -1,0 +1,6 @@
+.redtext{
+    color:red;
+    text-decoration:underline;
+    font-size: 100px;
+    background: url('./icon.png');
+}
